@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+      notifications:
+            container_name: bot
+            platform: linux/amd64
+            build: ./
+            image: bot
+            ports:
+              - "3008:3008"
