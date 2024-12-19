@@ -182,7 +182,7 @@ const channelId = "-1002361577211"; // Or use a numerical ID for a group
 
             if (
                 !notifiedDates.includes(smallestAvailibleDate) &&
-                moment(smallestAvailibleDate).diff(moment(), "days") < 100
+                moment(smallestAvailibleDate).diff(moment(), "days") < 40
             ) {
                 notifiedDates.push(smallestAvailibleDate);
                 // getting availible times for smallest day
